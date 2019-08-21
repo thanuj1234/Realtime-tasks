@@ -1,0 +1,28 @@
+Task-1:
+
+1. Create EC2 (CM) and install Ansible.
+2. Write a playbook which installs docker, enable docker on reboot and start docker daemon and add EC2 user to the docker group.
+3. Create a git repository to store ansible playbooks.
+4. Create two EC2 instances one for DEV and one for QA.
+5.Create branches- DEV- QA- Master
+
+Task-2:
+
+1. Write Jenkins job to run ansible-playbook(Only pipeline)
+2. If code pushed to DEV, run it on Dev server
+3. If code pushed to QA, run it on QA server 
+ 
+Task -3 :
+
+1.Run Spring Boot and MongoDB (add volumes)in Docker using Docker Compose? 
+
+Task -4:
+
+1.Write a shell script which deletes unwanted docker images in Jenkins and schedule this shell script which should run every 12 hours? 
+
+-- 
+Task -5:
+
+1. For every deployment send mail & slack notification to respective teams
+2. Install Nexus Server
+3. On every build manage versions for Docker images and push to Nexus Repository
